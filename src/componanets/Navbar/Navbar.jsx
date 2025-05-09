@@ -15,7 +15,7 @@ const Navbar = () => {
     <div>
       {/* Navbar top */}
       <div className="navbar_top  w-full bg-[#272343] ">
-        <div className="lg:container h-[45px] flex items-center justify-between px-4 mx-auto">
+        <div className="lg:container h-[40px] flex items-center justify-between px-4 mx-auto">
           <p className="text-sm font-normal text-white gap-2 capitalize items-center flex">
             <Check /> Free on all orders above $50
           </p>
@@ -44,7 +44,7 @@ const Navbar = () => {
 
       {/* navbar middle */}
 
-      <div className="navbar_middle flex mx-auto items-center justify-center bg-[#f0f2f3] shadow-md w-full h-[84px]">
+      <div className="navbar_middle flex mx-auto items-center justify-center bg-[#f0f2f3] shadow-md w-full h-[70px]">
         <div className="lg:container px-4 grid grid-cols-3 items-center">
           <div className="logo_wrapper">
             <Link
@@ -102,7 +102,7 @@ const Navbar = () => {
       </div>
 
       {/* navbar bottom */}
-      <div className="navbar_bottom flex items-center justify-center pt-2 h-[75px] bg-white shadow-sm px-4">
+      <div className="navbar_bottom flex items-center justify-center pt-2 h-[60px] bg-white shadow-sm px-4">
         <div className="flex items-center justify-between lg:container">
           <div className="navbar_bottom_left flex items-center gap-9">
             <div className="dropdown dropdown-start">

@@ -9,3 +9,61 @@
 html{
   font-family: "Jost",sans-serif;
 }
+
+.banner_slide{
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.5rem;
+}
+
+.banner_image{
+  position: relative;
+  z-index: 2;
+}
+
+.banner_image::before{
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0;
+  max-width: 747px;
+  width: 500%;
+  max-height: 747px;
+  height: 100%;
+  background-color: #e1e3e5;
+  z-index: -1;
+  border-radius: 100%;
+}
+
+.slick-dots li button:before {
+  font-family: 'slick';
+  font-size: 10px !important;
+  line-height: 22px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev:before, .slick-next:before {
+  font-family: 'slick';
+  font-size: 27px !important;
+  line-height: 1;
+  opacity: .75;
+  color: #029fae !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.delivery_component{
+  margin-top: -8rem;
+  z-index: 100;
+}
