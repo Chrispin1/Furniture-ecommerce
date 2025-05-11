@@ -1,6 +1,8 @@
 import Banner from "../../componanets/Banner/Banner";
 import Brand from "../../componanets/Brand/Brand";
+import Categories from "../../componanets/categories/categories";
 import Delivery from "../../componanets/Delivery/Delivery";
+import Feature from "../../componanets/Feature/Feature";
 
 const Home = () => {
   return (
@@ -18,6 +20,16 @@ const Home = () => {
       {/* brand component */}
       <div className="brand flex items-center h-[171px] justify-center w-full mt-8 mb-8">
         <Brand />
+      </div>
+
+      {/* feature component */}
+      <div className="w-full flex items-center justify-center overflow-hidden">
+        <Feature />
+      </div>
+
+      {/* category component */}
+      <div className="w-full flex items-center justify-center overflow-hidden">
+        <Categories />
       </div>
     </div>
   );

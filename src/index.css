@@ -67,3 +67,8 @@ html{
   margin-top: -8rem;
   z-index: 100;
 }
+
+.select-custom option {
+  background-color: white;
+  color: black;
+}

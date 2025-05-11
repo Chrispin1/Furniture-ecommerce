@@ -1,5 +1,3 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { MoveRight } from "lucide-react";
 
@@ -33,13 +31,13 @@ const Banner = () => {
 
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 500,
-    autoplaySpeed: 2000,
-    cssEase: "linear",
+    speed: 1500,
+    autoplaySpeed: 4000,
+    pauseOnHover: true,
   };
   return (
     <div className=" lg:container">
@@ -63,7 +61,7 @@ const Banner = () => {
               </div>
 
               {/* banner_image */}
-              <div className="banner_image w-full h-full flex items-center justify-end">
+              <div className="banner_image w-full h-full flex items-center justify-end ">
                 <img src={products.image} alt={products.title} />
               </div>
             </div>

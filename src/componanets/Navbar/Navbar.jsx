@@ -22,7 +22,7 @@ const Navbar = () => {
           <div className="navbar_top_right flex items-center gap-6">
             <select
               defaultValue="Server location"
-              className=" bg-none h-[30px] w-[90px] outline-none text-white text-sm font-normal capitalize border border-white/20 px-1.5 rounded-md"
+              className="select-custom bg-none h-[30px] w-[90px] outline-none text-white text-sm font-normal capitalize border border-white/20 px-1.5 rounded-md"
             >
               <option>eng</option>
               <option>German</option>
