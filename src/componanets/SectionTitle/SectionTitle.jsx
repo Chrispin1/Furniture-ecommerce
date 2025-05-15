@@ -1,7 +1,7 @@
 const SectionTitle = ({ title }) => {
   return (
     <div className="flex justify-center items-center">
-      <h3 className="text-3xl text-[#272343] tracking-wide font-semibold pb-11">
+      <h3 className="text-3xl text-[#272343] tracking-wide font-semibold pb-6 ">
         {title}
       </h3>
     </div>

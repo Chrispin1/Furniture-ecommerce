@@ -53,10 +53,10 @@ const Categories = () => {
   };
 
   return (
-    <div className="py-16 bg-gray-50">
+    <div className="py-16 bg-gray-100">
       <div className="lg:container px-20">
         <SectionTitle title="Shop by Categories" />
-        <div className="slider-container mb-20">
+        <div className="slider-container mb-4">
           <Slider {...settings}>
             {categories.map((category, index) => (
               <div className="px-4" key={index}>

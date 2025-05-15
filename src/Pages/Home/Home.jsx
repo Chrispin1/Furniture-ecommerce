@@ -3,6 +3,7 @@ import Brand from "../../componanets/Brand/Brand";
 import Categories from "../../componanets/categories/categories";
 import Delivery from "../../componanets/Delivery/Delivery";
 import Feature from "../../componanets/Feature/Feature";
+import Products from "../../componanets/Products/Products";
 
 const Home = () => {
   return (
@@ -30,6 +31,11 @@ const Home = () => {
       {/* category component */}
       <div className="w-full flex items-center justify-center overflow-hidden">
         <Categories />
+      </div>
+
+      {/* products component */}
+      <div>
+        <Products />
       </div>
     </div>
   );

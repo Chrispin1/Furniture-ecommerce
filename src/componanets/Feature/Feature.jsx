@@ -62,7 +62,7 @@ const Feature = () => {
     <div>
       <div className="lg:container px-20">
         <SectionTitle title="Featured Products" />
-        <div className="slider-container mb-20">
+        <div className="slider-container mb-4 mt-10">
           <Slider {...settings}>
             {features.map((feature, index) => (
               <div key={index} className="px-3">
