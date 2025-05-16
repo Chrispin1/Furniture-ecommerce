@@ -11,8 +11,8 @@ const ClientSay = () => {
     slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 1000,
-    autoplaySpeed: 1000,
+    speed: 2000,
+    autoplaySpeed: 5000,
   };
 
   const clientSays = [
