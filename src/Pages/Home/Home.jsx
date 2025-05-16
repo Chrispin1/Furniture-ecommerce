@@ -5,6 +5,7 @@ import ClientSay from "../../componanets/Client_Say/ClientSay";
 import Delivery from "../../componanets/Delivery/Delivery";
 import Feature from "../../componanets/Feature/Feature";
 import Products from "../../componanets/Products/Products";
+import Recent from "../../componanets/Recent/Recent";
 
 const Home = () => {
   return (
@@ -40,8 +41,12 @@ const Home = () => {
       </div>
 
       {/* client say component */}
-      <div className="min-h-[589px] bg-[#f0f2f3] w-full flex items-center mb-10 overflow-hidden">
+      <div className="min-h-[589px] bg-[#f0f2f3] w-full flex items-center mb-10 overflow-hidden mt-[40px]">
         <ClientSay />
+      </div>
+
+      <div className="w-full flex justify-center items-center mb-[80px] pt-[40px] overflow-hidden">
+        <Recent />
       </div>
     </div>
   );
