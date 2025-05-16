@@ -1,6 +1,7 @@
 import Banner from "../../componanets/Banner/Banner";
 import Brand from "../../componanets/Brand/Brand";
 import Categories from "../../componanets/categories/categories";
+import ClientSay from "../../componanets/Client_Say/ClientSay";
 import Delivery from "../../componanets/Delivery/Delivery";
 import Feature from "../../componanets/Feature/Feature";
 import Products from "../../componanets/Products/Products";
@@ -34,8 +35,13 @@ const Home = () => {
       </div>
 
       {/* products component */}
-      <div>
+      <div className="w-full ">
         <Products />
+      </div>
+
+      {/* client say component */}
+      <div className="min-h-[589px] bg-[#f0f2f3] w-full flex items-center mb-10 overflow-hidden">
+        <ClientSay />
       </div>
     </div>
   );

@@ -73,3 +73,17 @@ html{
   background-color: white;
   color: black;
 }
+
+.client_say_description{
+  position: relative;
+}
+
+.client_say_description::before{
+  content: "";
+  position:absolute;
+  left:-15px;
+  top:0;
+  background-color: #029fae;
+  width: 3px;
+  height: 100%;
+}
