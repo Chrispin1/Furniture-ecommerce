@@ -4,6 +4,7 @@ import Categories from "../../componanets/categories/categories";
 import ClientSay from "../../componanets/Client_Say/ClientSay";
 import Delivery from "../../componanets/Delivery/Delivery";
 import Feature from "../../componanets/Feature/Feature";
+import Footer from "../../componanets/Footer/Footer";
 import Products from "../../componanets/Products/Products";
 import Recent from "../../componanets/Recent/Recent";
 
@@ -47,6 +48,11 @@ const Home = () => {
 
       <div className="w-full flex justify-center items-center mb-[80px] pt-[40px] overflow-hidden">
         <Recent />
+      </div>
+
+      {/* footer */}
+      <div>
+        <Footer />
       </div>
     </div>
   );
